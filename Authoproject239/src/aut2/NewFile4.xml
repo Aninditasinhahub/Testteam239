@@ -1,0 +1,22 @@
+
+  
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >  
+<suite name="yahoo app Test Automation Suite"  >
+  <test name="Yahoo App Test" >
+    
+   
+ 	<parameter name="env" value="QA"/>
+ 	<parameter name="browser" value="chrome"/>
+ 	<parameter name="URL" value="https://login.yahoo.com/"/>
+ 	<parameter name="email" value="anindita28.sinha@gmail.com"/>
+ 	<classes>
+ 	<class name="aut2.ParameterizeTest"/>
+ 	
+ 	</classes>
+ </test>
+ </suite>
+        
+  
+    
+      
+

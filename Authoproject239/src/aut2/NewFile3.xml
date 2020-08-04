@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="aut2 Suite"  >
+  <test name="Regression",smoke,login>
+    <classes>
+       
+       <class name="aut2.NewTest1"/>
+       <class name= "aut2.NewTest2"/>
+       
+    </classes>
+    </test>
+    <test name="carLoan">
+   <classes>
+    <class name="aut2.NewTest3">
+    <methods >
+   <exclude name="MobilelogincarLoan()"/>
+   
+ 	</methods>
+ </class>
+ </classes>
+ </test>
+ </suite>
+        
+  
+    
+      
+

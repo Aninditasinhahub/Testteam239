@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >  
+<suite name="facebook app Test Automation Suite">
+  <test name="facebook App Test">
+    
+   
+ 	<parameter name="env" value="QA"/>
+ 	<parameter name="browser" value="Chrome"/>
+ 	<parameter name="URL" value="https://www.facebook.com/"/>
+ 	<parameter name="email" value="anindita28.sinha@gmail.com"/>
+ 	<parameter name="password" value="23452831"/>
+ 	<classes>
+ 	<class name="aut2.ParameterizeTest2"/>
+ 	
+ 	</classes>
+ </test>
+ </suite>
+        
+  
+    
